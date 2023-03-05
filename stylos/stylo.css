@@ -19,7 +19,9 @@ font-size: 40px;
 font-weight:bold ;
 text-transform: capitalize;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum;
+text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum;
 
 }
 .conteiner{
@@ -43,7 +45,9 @@ text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum;
     font-weight:bold ;
     text-transform: capitalize;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    filter: drop-shadow(2px 2px 2px gray);
+    text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+    3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+    3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum;;
 }
 .quienes_somos{
     padding-top: 16px;
@@ -140,7 +144,7 @@ nav div ul li:hover{
     box-shadow: 1px 2px 9px #921515;
     cursor: pointer;
     margin: 10px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-top:none ;
     border-left: none;
@@ -209,7 +213,7 @@ margin-left: -30px;
     cursor: pointer;
     font-weight: bold;
     border: none;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .solicitar-taxi i{
@@ -403,7 +407,9 @@ footer p{
     font-weight:bold ;
     text-transform: capitalize;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum;
+    text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum,1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+    3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,
+    3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum,3px 3px 3px plum;;
 
 }
 .contenedor_4 p {
@@ -425,11 +431,14 @@ footer p{
 }
 .seguridad h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 1px white,2px 2px 1px white;
+    text-shadow: 2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,
+    2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,
+    2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro,2px 2px 2px gainsboro;
     color: black;
     font-size: 45px;
     margin-bottom: 10px;
     width: 430px;
+    font-weight: bold;
     
 }
 .seguridad p{
@@ -522,7 +531,7 @@ font-size: cursive;
  
     cursor: pointer;
   margin-bottom:6px ;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-top:none ;
     border-left: none;
@@ -540,14 +549,14 @@ font-size: cursive;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: forestgreen;
+    background-color: rgb(39, 195, 39);
     text-align: center;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 45px;
-    color: white;
+    
     position: fixed;
     bottom: 80px;
     right: 10px;
@@ -583,10 +592,19 @@ display: none;
         transition: all .5s;
         
     }
+    .whatsapp i{
+        color: white;
+        transition: all 0.5s;
+    }
 .whatsapp:hover{
     transition: all 0.5s;
     background-color: white;
-    color: forestgreen;
+    
+   
+}
+.whatsapp i:hover{
+    transition: all 0.5s;
+    color:  rgb(39, 195, 39) ;
 }
 .copirai{
     background-color: #353739;
