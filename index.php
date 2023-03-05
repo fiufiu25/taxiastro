@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylos/stylo.css">
+   <link rel="stylesheet" href="stylos/fontello.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href=https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css rel="stylesheet">
+   <link rel="stylesheet" href="stylos/styloandrion.css">
+</head>
+<body >
+    <header>
+        <nav>
+            <div>
+            <img  class="logo" src="imagenes/logo.jpg" alt="">
+        </div>
+        <div>
+            <ul class="lista">
+               
+                <li><a href="index.php">inicio</a></li>
+                <li> <a href="#quienes_somos">quienes somos</a></li>
+                <li><a href="#servicioastro">servicio</a></li>
+                <li><a href="">contacto</a></li>
+                <li><a href="#">reclamos</a></li>
+
+            </ul>
+        </div>
+            
+        </nav>
+        
+        <section class="conteiner">
+        <div class="taxiastro"> 
+            <img  class="carro_astro"src="imagenes/carro.png" alt="">
+
+        </div>
+        <div class="seguridad">
+            <h1>Conduce con nosotros ó
+                solicita
+                tu servicio</h1>
+            <div class="btn_solicitar">
+            <a href="tel:51972224099"> <button class="solicitar">solicita tu taxi ahora</button></a>       
+        <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:" target="_blank"><button class="solicitar" >reserva tu taxi </button></a>
+    </div>
+    </div>
+    </section>
+    </header>
+    <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+     <main >
+        <section class="contenedor_flex">
+            <div>
+            <h2>Protocolo Bio-Seguridad Contra COVID-19</h2>
+            <ul>
+                <li> <span class="icon-dot-circled"></span>Desinfección Diaria de toda nuestra flota de Taxis</li>
+                <li> <span class="icon-dot-circled"></span>Realizamos periodicamente pruebas de descarte del COVID-19 a todos nuestros conductores</li>
+                <li> <span class="icon-dot-circled"></span>Desinfección a todos nuestros pasajeros antes de abordar los taxis  </li>
+                <li> <span class="icon-dot-circled"></span>Desinfección de todas nuestras unidades vehiculares al terminar cada servicio</li>
+                
+            </ul>
+        </div>
+        <div class="">
+            <h2>Nuestro Servicios</h2>
+            <ul class="list_tipos">
+                <li><span class="icon-check"></span><a href="#"> Regular</a></li>
+                <li><span class="icon-check"></span><a href="#"> taxi por hora</a></li>
+                 <li><span class="icon-check"></span><a href="#"> taxi delivery</a></li>
+                <li><span class="icon-check"></span><a href="#"> taxi tours</a></li>
+                <li><span class="icon-check"></span><a href="#"> reserva taxi</a></li>
+                <li><span class="icon-check"></span><a href="#"> pago con tarjeta</a></li>
+                <li><span class="icon-check"></span><a href="#"> pago con plin</a></li>
+                <li><span class="icon-check"></span><a href="#"> pago con yape</a></li>
+                <li><span class="icon-check"></span><a href="#"> servicio corporativo para traslado de personal</a></li>
+
+            </ul>
+        </div>
+        <div class="numeros">
+            <h1>Atención Las 24 Horas 365 Dias</h1>
+            <ul class="list_numero">
+                <li>056 757645 <a  class="llamar" href="tel:+51056757645"><span class="icon-phone"></span>llama ahora</a></li>
+                <li>056 634121 <a  class="llamar" href="tel:+51056634121"><span class="icon-phone"></span>llama ahora</a></li>
+                <li>972 224 099 <a  class="llamar" href="tel:+51972224099"><span class="icon-phone"></span>llama ahora</a></li>
+                <li>957 056 067 <a  class="llamar" href="tel:+51957056067"><span class="icon-phone"></span>llama ahora</a></li>
+                
+                
+            </ul>
+            <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:" target="_blank"><button class="solicitar-taxi" >Reserva Tu Taxi   <i class="fa-brands fa-whatsapp"></i></button></a>
+            
+        </div>
+<br>
+
+        </section>
+     <section class="contenedor_2">
+       
+      
+       
+         <div class="quienes_somos" id="quienes_somos">
+           
+            
+           <div class="vision">
+            <h1> Somos  Taxi Astro </h1>
+            <p class="somos">Somos una empresa de Taxi Formal, contamos con las autorizaciones de la Municipalidad Provincial de Ica y el M.T.C. le garantizamos a todos nuestros usuarios un servicio 100% eficiente y seguro a la hora de trasladarte dentro y fuera de la ciudad ya que constantemente capacitamos  y evaluamos a nuestro personal para asegurarnos de prestar el mejor servicio de la Ciudad. </p>
+            <br>
+            <p class="caracterizamos">Nos caracterizamos por nuestra atención personalizada, trato V.I.P. puntualidad y precios justos.</p>
+        <h1>Misión</h1>
+        <p class="somos">Ser la empresa más confiable del medio, manteniendo el liderazgo en cada mercado que participemos, a través de la buena calidad de servicios</p>
+        <h1>Visión</h1>
+        <p class="somos">Que nuestros clientes y consumidores nos elijan siempre como la primera opción, “ser el líder”.</p>
+    </div>
+    <div class="img_taxi"> <img class="ola" src="imagenes/quienessomos.jpg" alt=""></div>
+                
+    </div>
+     </section>
+     <div class="servicioastro" id="servicioastro">
+        <h1>Nuestro Servicio</h1>
+     <section class="contenedor_3">
+      
+        
+        <div class="contenedor_3_1">
+            
+            <div class="img-contenedor">
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45916/oncoming-taxi-emoji-clipart-md.png" alt="">
+            </div>
+            <h3>
+                taxi 24/7
+            </h3>
+            <p>Contamos con una gran flota de taxis para garantizar un servicio constante durante las 24 horas del Dia .</p>
+        </div>
+        <div class="contenedor_3_1">
+            <div  class="img-contenedor">
+                <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="">
+            </div>
+            <h3>
+                Taxi Por Hora            </h3>
+            <p>Le ofrecemos un servicio por hora donde podra contratar un taxi para realizar diferentes diligencias, paradas, compras etc y cancelar una tarifa unica por hora </p>
+        </div>
+        <div class="contenedor_3_1">
+            <div  class="img-contenedor">
+                <img src="https://elcafenoticias.com/wp-content/uploads/2020/04/5ce2d2238dae3500d605e67d_Delivery-Management-system-Nex-Icon.png" alt="">
+            </div>
+            <h3>
+                Taxi Delivery
+            </h3>
+            <p>Realizamos sus compras, pagos de servicios, envio de paqueteria</p>
+        </div>
+        <div class="contenedor_3_1">
+            <div class="img-contenedor">
+                <img src="https://imgfileszkdyq8.s3.amazonaws.com/logo-taxi/reserva-taxi-servicio.com.png" alt="">
+            </div>
+            <h3>
+                Reserva De Taxi
+            </h3>
+            <p>Reserve su taxi para una hora especifica y ahorre tiempo.</p>
+        </div>
+        <div class="contenedor_3_1">
+            <div class="img-contenedor">
+                <img src="https://taxitourschania.com/wp-content/uploads/2016/07/taxi-tours-logo.png" alt="">
+            </div>
+            <h3>
+                Taxi Tours
+
+            </h3>
+            <p>Lo llevamos a conocer lo mejores lugares y atracciones turisticas de nuestra bella ciudad.</p>
+        </div>
+        <div class="contenedor_3_1">
+            <div class="img-contenedor">
+                <img src="https://cdn-icons-png.flaticon.com/128/766/766572.png" alt="">
+            </div>
+            <h3>
+                Pago Virtual
+            </h3>
+            <p>Puede cancelar todos nuestros servicios por las plataformas virtuales de pago asi como por transferencias.a .</p>
+        </div>
+     </section>
+     <section  class="contenedor_4">
+        <h1>por que preferirnos?</h1>
+        <p>Somos la unica empresa en cumplir y respetar al 100% el protocolo de Bio-seguridad para la prevención del COVID-19
+
+        </p>
+     <div class="contenedor_4_flex">
+        <div class="contenedor_4_1">
+            <div>
+                <img src="https://ueca.es/wp-content/uploads/2020/04/buenconductor.png" alt="">
+            </div>
+            <h3>conductores profecionales</h3>
+
+        <p>Todos nuestros conductores están capacitados y cuentan con Vocación de servicio para brindarle la mejor atención</p>
+        </div>
+        <div  class="contenedor_4_1">
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="">
+            </div>
+            <h3> Puntualidad</h3>
+            <p> Nos esmeramos en atenderle en el menor tiempo posible</p>
+        </div>
+        <div  class="contenedor_4_1">
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/3208/3208690.png" alt="">
+            </div>
+            <h3>Seguridad</h3>
+            <p>Nuestros conductores cuentan con entrevistas psicologicas, antecedentes penales, policiales y judiciales adicionalmente nuestra flota cuenta con un sistema integral de monitoreo para su ubicación en tiempo real.</p>
+        </div>
+        <div  class="contenedor_4_1">
+            <div>
+                <img src="https://seven7company.com/wp-content/uploads/2017/05/ele_soluciones.png" alt="">
+            </div>
+            <h3>
+                Facilidad En Soluciones</h3>
+            <p>Ofrecemos gran variedad en soluciones para facilitarle sus necesidades como: Aplicación movil, pago virtual, reserva de taxi, delivery, pago de servicios</p>
+        </div>
+    </div>
+     </section>
+    </div>
+     </main>
+     <section class="atencion_servicios">
+        <div>
+            <h1>ATENCIÓN LAS 24 HORAS LOS 365 DIAS DEL AÑO</h1>
+            <p>¡Siempre a tu servicio!</p>
+            <div >
+                <button class="telefono"><span class="icon-phone"></span> 972 224 099</button>
+            </div>
+            <div>
+                <button class="telefono-2"> <span class="icon-phone"></span> 957 056 067</button>
+            </div>
+            <div>
+                <button class="telefono-2"><span class="icon-phone"></span> 056757645</button>
+            </div>
+        </div>
+     </section>
+     <div class="scrool">
+        <i class="fa-solid fa-arrow-up"></i>
+
+     </div>
+     <div class="fixe_pedir">
+        <a href="tel:51972224099"> <button >solicita tu taxi ahora</button></a>       
+        <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:" target="_blank"><button >reserva tu taxi </button></a>
+     </div>
+     <div class="whatsapp">
+        <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:"><i class="fa-brands fa-whatsapp"></i></a>
+     </div>
+    
+</body>
+<footer>
+    <section class="footer_contenedor">
+    <div>
+        <img src="imagenes/logo.jpg" alt="" srcset="">
+        <div>
+
+        </div>
+    </div>
+    <div>
+        <h2>contactenos</h2>
+        <p>Email:info@taxiastro.com</p>
+        <p>Atención las 24 horas </p>
+        <p>056757645 / 056634121 / 972224099</p>
+    </div>
+    <div>
+        <h2>nuestro servicio</h2>
+        <div class="contenedor_taxis">
+            <div>
+        <p>taxi</p>
+        <p>taxi por hora </p>
+        <p>taxi delivery</p>
+    </div>
+    <div>
+        <p>taxi tours</p>
+        <p>reserva de taxi</p>
+        <p>pago virtual</p>
+    </div>
+    </div>
+    </div>
+</section>
+ 
+
+ <div class="copirai">© Copyright Taxi Astro. Todos los Derechos Reservados 2023</div>
+</footer>
+
+<script src="main.js"></script>
+</html>

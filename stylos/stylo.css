@@ -1,0 +1,621 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to right,rgb(201, 169, 26) , rgb(184, 72, 72 )  );
+}
+ul li{
+list-style: none;
+display: inline-block;
+margin: 10px;
+padding: 10px;
+}
+.servicioastro h1{
+    text-align: center;
+padding: 10px;
+font-size: 40px;
+font-weight:bold ;
+text-transform: capitalize;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+.servicioastro{
+    margin-top: 50px;
+}
+.quienes_somos h1{
+   
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    font-weight:bold ;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+.quienes_somos{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+
+}
+
+.div_carro{
+    text-align: center;
+    width: 400px;
+    border: solid black;
+    height: 400px;
+}
+.div_carro img{
+    width: 500px;
+    height: 200px;
+}
+.taxiastro{
+    width: 1000px;
+}
+
+ nav div ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+   color: wheat ;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav{
+    background: black;
+ 
+    width:100%;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+   
+    
+}
+nav div ul li:hover{
+    border-radius: 10px;
+  
+    box-shadow: 1px 2px 2px gray;
+    transition: all 0.1s;
+    background-color: #43484d;
+  
+}
+.logo{
+    width: 80px;
+ 
+   left: 2px;
+   height: 70px;
+   border-radius: 20px;
+}
+.taxiastro{
+    width: 500px;
+   
+    text-align: center;
+    
+    
+}
+.seguridad{
+    text-align: center ;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 500px;
+   
+}
+
+.icon-check{
+    color: red;
+    
+}
+.btn_solicitar{
+    display: flex;
+
+}
+.solicitar{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    text-transform: capitalize;
+    border-bottom:5px solid #921515;
+    border-right: 5px solid #921515;
+    box-shadow: 1px 2px 9px #921515;
+    cursor: pointer;
+    margin: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    border-top:none ;
+    border-left: none;
+}
+.solicitar:hover{
+   background-color:rgb(230, 93, 93);
+   color:white;
+}
+
+.contenedor_flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.contenedor_flex ul li{
+    padding: 3px;
+    text-align:justify;
+    
+}
+.contenedor_flex ul{
+margin-left: -30px;
+}
+.contenedor_flex div{
+    padding: 40px 0;
+}
+.contenedor_flex div h1,h2{
+    text-align: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(1px 1px 2px red);
+
+ 
+}
+.numeros li{
+    font-size: 25px;
+}
+.contenedor_flex ul li, a{
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+
+    
+}
+.list_tipos{
+    margin-top: 10px;
+    
+   
+}
+.list_numero{
+    margin-top: 10px;
+}
+.solicitar-taxi{
+    display: block;
+    width: 240px;
+    padding: 20px;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+    background-color:rgb(113, 47, 47);
+    color: white;
+    font-size: 20px;
+    border-radius: 19px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    font-family: cursive;
+
+}
+.solicitar-taxi i{
+    color: forestgreen;
+    margin-left: 5px;
+}
+.solicitar-taxi:hover{
+    background-color: #921515;
+}
+.contenedor_flex .numeros{
+    width: 320px;
+}
+.icon-dot-circled{
+    color: #921515;
+}
+.contenedor_flex div {
+    width: 300px;
+    border-bottom:3px solid gray;
+    border-right:3px solid gray;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 38);
+  
+    color: white;
+    box-shadow: 2px 2px 2px gray,3px 3px 3px rgb(203, 202, 202),4px 4px 4px rgb(223, 221, 221);
+}
+.contenedor_flex div ul li{
+    display: block;
+   
+}
+.llamar{
+    
+    border: 1px solid rebeccapurple;
+    text-transform:uppercase;
+    font-size: 16px;
+
+}
+.llamar:hover{
+    color: red;
+}
+.icon-phone{
+        color: #fcb045;
+}
+.contenedor_2{
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.contenedor_2 div{
+  
+margin-top: 10px;
+   width: 100%;
+}
+.carro_astro{
+    width: 400px;
+    filter: drop-shadow(2px 5px 4px black);
+    z-index: 1;
+    
+       }
+.contenedor_2 .quienes_somos{
+    width:100%;
+    font-family: monospace;
+    color: rgb(59, 48, 48);
+}
+
+.contenedor_2 div p{
+    text-align:justify;
+}
+.contenedor_3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap:40px ;
+    row-gap: 50px;
+    margin-top: 20px;
+}
+.contenedor_3 .contenedor_3_1 {
+    width: 360px;
+    text-align: center;
+    text-transform: capitalize;
+    border-right:4px solid #43484d;
+    border-bottom: 4px solid #43484d;
+    border-radius: 20px;
+    box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.589);
+    padding: 10px;
+   
+}
+.contenedor_3 div div img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor_3 div  .img-contenedor{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.contenedor_3 h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.contenedor_3 p{
+    color: rgb(63, 50, 50);
+    font-size: 18px;
+}
+
+.contenedor_4{
+    
+    padding: 20px;
+}
+.contenedor_4_flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+.contenedor_4_flex .contenedor_4_1{
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 4px solid black;
+    border-right:4px solid black;
+    border-radius: 40px;
+    box-shadow: 1px 4px 6px blanchedalmond;
+}
+.contenedor_4_flex div h3{
+    text-align: center;
+}
+.contenedor_4_flex div div img{
+    width: 120px;
+    height: 120px;
+}
+.contenedor_4_flex div div{
+    width: 100%;
+    text-align: center;
+}
+.footer_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+footer div{
+    width: 400px;
+    color: white;
+}
+.footer_contenedor div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    filter:drop-shadow(2px 4px 3px rgb(170, 139, 139));
+    z-index: 2;
+}
+footer{
+    
+    background-color: black;
+  
+}
+footer h2{
+    font-size: 30px;
+    color:yellow;
+    text-transform: capitalize;
+    text-align: left;
+}
+footer p{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
+    color: rgb(102, 86, 86);
+}
+.contenedor_4{
+    padding: 40px 10px;
+}
+.contenedor_4 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold ;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px plum,2px 2px 2px plum,3px 3px 3px plum;
+
+}
+.contenedor_4 p {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(66, 50, 50);
+    font-size: 20px;
+}
+.contenedor_4 h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.telefono{
+    padding: 15px 30px;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: black;
+}
+.seguridad h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px white,2px 2px 1px white;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 10px;
+    width: 430px;
+    
+}
+.seguridad p{
+    font-size: 20px;
+    color:black;
+    
+}
+
+main{
+    
+    padding: 20px;
+    margin: 0;
+}
+.somos{
+    font-size: 17px;
+    font-family:monospace;
+    
+    color: rgb(59, 48, 48);
+}
+.caracterizamos{
+font-size: 18px;
+font-size: cursive;
+}
+.atencion_servicios{
+   
+    text-align: center;
+    padding: 10px;
+    
+}
+.atencion_servicios div{
+ 
+    padding: 20px;
+}
+.telefono-2{
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-bottom:3px solid red ;
+    border-right: 3px solid red;
+}
+.atencion_servicios button{
+    cursor: pointer;
+}
+.atencion_servicios button:hover{
+    transform: scale(1.06);
+    transition: all 0.3s;
+}
+.atencion_servicios h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(63, 52, 39);
+}
+.atencion_servicios p{
+    font-size: 20px;
+    color: rgb(53, 39, 39);
+}
+.contenedor_taxis{
+    display: flex;
+    text-transform: capitalize;
+}
+.hamburger--collapse{
+    position: fixed;
+    visibility: hidden;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+.fixe_pedir{
+ position: fixed;
+ left: 10px;
+ bottom: 4px;
+ display: flex;
+ flex-direction: column;
+ z-index: 999;
+ 
+}
+.fixe_pedir button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: rgb(234, 52, 52);
+    color:white;
+    text-transform: capitalize;
+ 
+    cursor: pointer;
+  margin-bottom:6px ;
+    font-family: cursive;
+    font-weight: bold;
+    border-top:none ;
+    border-left: none;
+   transition: all 0.2s;
+   
+}
+.fixe_pedir button:hover{
+    color:  rgb(234, 52, 52);
+    background-color: white;
+    transform: scale(1.07);
+    transform: translateY(-4px);
+    transition: all 0.5s;
+}
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: forestgreen;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+
+
+.scrool{
+
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#921515;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+display: none;
+
+    }
+    .scrool:hover{
+        transition: all 0.5s;
+        background-color: rgba(168, 120, 120, 0.571);
+    }
+    .scrool-active{
+        display: block;
+        transition: all .5s;
+        
+    }
+.whatsapp:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: forestgreen;
+}
+.copirai{
+    background-color: #353739;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contenedor_2  .quienes_somos .ola{
+    
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgb(35, 33, 33),3px 4px 4px rgb(65, 59, 59),3px 4px 6px rgb(65, 59, 59);
+    }
+    .quienes_somos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+       
+        border-radius: 10px;
+    }
+    .quienes_somos .img_taxi{
+        width: 500px;
+    }
+    .quienes_somos .vision{
+        width: 400px;
+    }

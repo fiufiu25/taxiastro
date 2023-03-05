@@ -1,0 +1,73 @@
+
+@media (max-width:960px) {
+
+    .logo{
+        display: none;
+    }
+    footer div h2,p{
+font-size: 20px;
+    }
+    footer div img{
+        width: 100px;
+        height:100px;
+
+    }
+nav{
+    display: flex;
+    background-color:rgba(27, 38, 60, 0.918);
+    position: fixed;
+    height: 100vh;
+    justify-content:left;
+  align-content:start;
+  width: 300px;
+   z-index: 999; 
+   border-bottom-right-radius: 30px;
+  transform: translateX(-150%);
+  transition: all 0.9   s;
+}
+.banner-active{
+transform: translateX(0);
+transition: all 0.5s;
+}
+   
+    
+
+   
+nav div ul{
+   margin-left:-40px ;
+}
+ nav div ul li{
+    display: block;
+}
+nav div ul li a{
+    color:white
+}
+
+    
+    .hamburger--collapse{
+        visibility: visible;
+    }
+   
+  header .banner-active{
+    transform: translatex(0);
+    transition: all 1s;
+  }
+  .contenedor_3 div h3 {
+    font-size: 26px;
+
+  }
+  .contenedor_3 div {
+    width: 300px;
+  }
+    .contenedor_4_flex div{
+        width: 300px;
+
+    }
+    .contenedor_4_flex div h3{
+        font-size: 25px;
+    }
+
+.seguridad h1{
+    font-size: 36px;
+}
+}
