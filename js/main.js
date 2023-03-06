@@ -1,5 +1,5 @@
     const btnhamburs=document.querySelector(".hamburger--collapse")
-    const banner=document.querySelector("nav")
+    const banner=document.querySelector(".contenedor_menu")
     document.addEventListener("click",(e)=>{
         
         if(e.target.matches(".hamburger--collapse")|| e.target.matches(".hamburger--collapse span")){

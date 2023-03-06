@@ -1,0 +1,528 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+header{
+  
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 7px 1px 7px wheat;
+    z-index: 997;
+
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.menu li a{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+.logo{
+    color: white;
+    padding: 10px;
+}
+.menu li:hover{
+background-color: rgb(255, 48, 2);
+border-radius: 10px;
+}
+.conduce{
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+.conduce h1{
+   
+    font-size: 40px;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px red);
+
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    flex-wrap: wrap;
+}
+.conduce2{
+    width: 600px;
+}
+.solicitar{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+ background-color: black;
+    color:white;
+    border:   1px solid white;
+    text-transform: capitalize;
+  
+    box-shadow: 1px 5px 5px #921515;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: all 0.4s;
+   
+}
+.solicitar:hover{
+    background-color: rgb(255, 15, 2);
+    transition: all 0.4s;
+    border: none;
+}
+.btn_solicitar{
+    display: flex;
+
+}
+.contenedor_2{
+
+    color: white;
+   padding-top: 50px;}
+.quienes_somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+}
+.quienes_somos .vision{
+    width: 600px;
+
+}
+.vision h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.vision p{
+    color: gray;
+}
+.img_taxi{
+    width: 500px;
+    text-align: center;
+}
+.img_taxi img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.contenedor_3 .contenedor_3_1 {
+    width: 360px;
+    text-align: center;
+    text-transform: capitalize;
+    border-right:4px solid #43484d;
+    border-bottom: 4px solid #43484d;
+    border-radius: 20px;
+    box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.589);
+    padding: 10px;
+    background-color: #795f5fb1;
+   
+}
+.contenedor_flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.contenedor_flex ul li{
+    padding: 3px;
+    text-align:justify;
+    list-style: none;
+    
+}
+.contenedor_flex ul{
+margin-left: -30px;
+}
+.contenedor_flex div{
+    padding: 40px 0;
+    width: 400px;
+    border:2px solid red ;
+    border-bottom-right-radius:30px ;
+    padding: 14px;
+}
+.contenedor_flex div h1,h2{
+    text-align: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(1px 1px 2px red);
+    color: white;
+
+ 
+}
+.llamar{
+    
+    border: 1px solid rebeccapurple;
+    text-transform:uppercase;
+    font-size: 16px;
+
+}
+.solicitar-taxi{
+    display: block;
+    width: 240px;
+    padding: 20px;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+    background-color:rgb(113, 47, 47);
+    color: white;
+    font-size: 20px;
+    border-radius: 19px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.solicitar-taxi i{
+    color: forestgreen;
+    margin-left: 5px;
+}
+.solicitar-taxi:hover{
+    background-color: #921515;
+}
+.llamar:hover{
+    color: red;
+}
+.icon-dot-circled{
+    color: #921515;
+}
+.icon-check{
+    color: red;
+    
+}
+.numeros li{
+    font-size: 25px;
+}
+.contenedor_flex ul li, a{
+    text-decoration: none;
+    color: gray;
+    text-transform: capitalize;
+
+    
+}
+.servicioastro h1{
+color: white;
+text-align: center;
+padding: 20px;
+filter: drop-shadow(1px 1px 1px red);
+}
+.contenedor_3_1 p{
+    color:rgb(208, 177, 177);
+}
+.contenedor_3_1 h3{
+    font-size: 25px;
+   padding: 10px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:rgb(64, 27, 27);
+   font-weight:bold;
+   filter: drop-shadow(1px 1px 1px white);
+
+}
+.contenedor_3 div div img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor_3 div  .img-contenedor{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.contenedor_3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contenedor_3.contenedor_3_1{
+    width: 300px;
+    
+ }
+ .servicioastro{
+   
+    padding: 30px 10px;
+ }
+ .contenedor_4{
+    
+    padding: 20px;
+}
+.contenedor_4 h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.contenedor_4 p{
+    text-align: center;
+    color: wheat;
+    padding-bottom: 20px;
+}
+.contenedor_4_flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+.contenedor_4_flex .contenedor_4_1{
+    width: 460px;
+    text-align: center;
+    text-transform: capitalize;
+    border-right:4px solid #43484d;
+    border-bottom: 4px solid #43484d;
+    border-radius: 20px;
+    box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.589);
+    padding: 10px;
+    background-color: #795f5fb1;
+}
+.contenedor_4_flex div p{
+    color:rgb(208, 177, 177);
+}
+.contenedor_4_flex div h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(64, 27, 27);
+    font-weight:bold;
+    filter: drop-shadow(1px 1px 1px white);
+}
+.contenedor_4_flex div div img{
+    width: 120px;
+    height: 120px;
+}
+.contenedor_4_flex div div{
+    width: 100%;
+    text-align: center;
+}
+.atencion_servicios{
+   
+    text-align: center;
+    padding: 10px;
+    
+}
+.atencion_servicios div{
+ 
+    padding: 20px;
+}
+.telefono-2{
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(234, 52, 52);
+    color: white;
+    box-shadow: 2px 2px 2px white;
+    border: none;
+}
+.atencion_servicios button{
+    cursor: pointer;
+}
+.atencion_servicios button:hover{
+    transform: scale(1.06);
+    transition: all 0.3s;
+}
+.atencion_servicios h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    filter: drop-shadow(1px 1px 1px rgb(255, 21, 0));
+}
+.atencion_servicios p{
+    font-size: 20px;
+    color: white;
+    filter: drop-shadow(1px 1px 1px rgb(255, 21, 0));
+}
+.telefono{
+    padding: 15px 30px;
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: rgb(234, 52, 52);
+    box-shadow: 2px 2px 2px white;
+    border: none;
+}
+.footer_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-top:4px solid gray;
+}
+footer div{
+    width: 400px;
+    color: white;
+}
+.footer_contenedor div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    filter:drop-shadow(2px 4px 3px rgb(170, 139, 139));
+    z-index: 2;
+}
+footer{
+    
+    background-color: rgb(0, 0, 0);
+  
+}
+footer h2{
+    font-size: 30px;
+    color:yellow;
+    text-transform: capitalize;
+    text-align: left;
+}
+footer p{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
+    color: rgb(102, 86, 86);
+}
+.contenedor_taxis{
+    display: flex;
+    text-transform: capitalize;
+}
+.copirai{
+    background-color: #353739;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.fixe_pedir{
+    position: fixed;
+    left: 10px;
+    bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    
+   }
+   .fixe_pedir button{
+       padding: 10px 20px;
+       font-size: 18px;
+       border-radius: 20px;
+       background-color: rgb(234, 52, 52);
+       color:white;
+       text-transform: capitalize;
+    
+       cursor: pointer;
+     margin-bottom:6px ;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       border-top:none ;
+       border-left: none;
+      transition: all 0.2s;
+      
+   }
+   .fixe_pedir button:hover{
+       color:  rgb(234, 52, 52);
+       background-color: white;
+       transform: scale(1.07);
+       transform: translateY(-4px);
+       transition: all 0.5s;
+   }
+   .whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(39, 195, 39);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+.whatsapp i{
+    color: white;
+    transition: all 0.5s;
+}
+.whatsapp:hover{
+transition: all 0.5s;
+background-color: white;
+
+
+}
+.whatsapp i:hover{
+transition: all 0.5s;
+color:  rgb(39, 195, 39) ;
+}
+.scrool{
+
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#921515;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+display: none;
+
+    }
+    .scrool:hover{
+        transition: all 0.5s;
+        background-color: rgba(168, 120, 120, 0.571);
+    }
+    .scrool-active{
+        display: block;
+        transition: all .5s;
+        
+    }
+   
+    
+   
+   .hamburger{
+    position: relative;
+    top: 5px;
+    left: -2px;
+    font-size: 10px;
+   }
+    .hamburgesa{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        position: fixed;
+        visibility:hidden ;
+        background-color: #e41313;
+        right: 10px;
+        top: 3px;
+        z-index: 999;
+        text-align: center;
+    }

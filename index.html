@@ -3,56 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylos/style.css">
+  <link rel="stylesheet" href="stylos/fontello.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href=https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css rel="stylesheet">
+  <link rel="stylesheet" href="stylos/styloandrion.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylos/styloandrion.css">
     <title>Document</title>
-    <link rel="stylesheet" href="stylos/stylo.css">
-   <link rel="stylesheet" href="stylos/fontello.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link href=https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css rel="stylesheet">
-   <link rel="stylesheet" href="stylos/styloandrion.css">
 </head>
-<body >
+<body>
     <header>
         <nav>
-            <div>
-            <img  class="logo" src="imagenes/logo.jpg" alt="">
-        </div>
-        <div>
-            <ul class="lista">
-               
-                <li><a href="index.php">inicio</a></li>
-                <li> <a href="#quienes_somos">quienes somos</a></li>
-                <li><a href="#servicioastro">servicio</a></li>
-                <li><a href="">contacto</a></li>
-                <li><a href="#">reclamos</a></li>
-
-            </ul>
-        </div>
-            
+            <div class="logo">
+              <h1>TAXIASTRO</h1>
+            </div>
+            <div class="contenedor_menu">
+<ul class="menu">
+    <li><a href="index.html">inicio</a></li>
+    <li><a href="#quienes_somos">quienes somos</a></li>
+    <li><a href="#servicioastro">servicios</a></li>
+    <li><a href="">reclamos</a></li>
+</ul>
+            </div>
         </nav>
-        
-        <section class="conteiner">
-        <div class="taxiastro"> 
-            <img  class="carro_astro"src="imagenes/carro.png" alt="">
 
-        </div>
-        <div class="seguridad">
-            <h1>Conduce con nosotros ó
-                solicita
-                tu servicio</h1>
+      <section class="cabecera">
+        <div class="conduce" >
+            <h1 >Conduce Con Nosotros Ó Solicita Tu Servicio</h1>
             <div class="btn_solicitar">
-            <a href="tel:51972224099"> <button class="solicitar">solicita tu taxi ahora</button></a>       
-        <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:" target="_blank"><button class="solicitar" >reserva tu taxi </button></a>
-    </div>
-    </div>
-    </section>
+                <a href="tel:51972224099"> <button class="solicitar">solicita tu taxi ahora</button></a>       
+            <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:" target="_blank"><button class="solicitar" >reserva tu taxi </button></a>
+        </div>
+        </div>
+        <div class="conduce2">
+            <img src="https://www.alotaxis.com/img/imagen2.svg" alt="" srcset="">
+        </div>
+      </section>
     </header>
+    <div class="hamburgesa">
     <button class="hamburger hamburger--collapse" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
       </button>
-     <main >
+    </div>
+    <main>
+        <section class="contenedor_2" id="">
+       
+      
+       
+            <div class="quienes_somos" id="quienes_somos">
+              
+               
+              <div class="vision">
+               <h1> Somos  Taxi Astro </h1>
+               <p class="somos">Somos una empresa de Taxi Formal, contamos con las autorizaciones de la Municipalidad Provincial de Ica y el M.T.C. le garantizamos a todos nuestros usuarios un servicio 100% eficiente y seguro a la hora de trasladarte dentro y fuera de la ciudad ya que constantemente capacitamos  y evaluamos a nuestro personal para asegurarnos de prestar el mejor servicio de la Ciudad. </p>
+               <br>
+               <p class="caracterizamos">Nos caracterizamos por nuestra atención personalizada, trato V.I.P. puntualidad y precios justos.</p>
+           <h1>Misión</h1>
+           <p class="somos">Ser la empresa más confiable del medio, manteniendo el liderazgo en cada mercado que participemos, a través de la buena calidad de servicios</p>
+           <h1>Visión</h1>
+           <p class="somos">Que nuestros clientes y consumidores nos elijan siempre como la primera opción, “ser el líder”.</p>
+       </div>
+       <div class="img_taxi"> <img class="ola" src="imagenes/quienessomos.jpg"></div>
+                   
+       </div>
+        </section>
+      
+      <div class="servicioastro" id="servicioastro">
+
+
+
+
+
+        <h1>Nuestro Servicio</h1>
+
         <section class="contenedor_flex">
             <div>
             <h2>Protocolo Bio-Seguridad Contra COVID-19</h2>
@@ -95,29 +121,7 @@
 <br>
 
         </section>
-     <section class="contenedor_2">
-       
-      
-       
-         <div class="quienes_somos" id="quienes_somos">
-           
-            
-           <div class="vision">
-            <h1> Somos  Taxi Astro </h1>
-            <p class="somos">Somos una empresa de Taxi Formal, contamos con las autorizaciones de la Municipalidad Provincial de Ica y el M.T.C. le garantizamos a todos nuestros usuarios un servicio 100% eficiente y seguro a la hora de trasladarte dentro y fuera de la ciudad ya que constantemente capacitamos  y evaluamos a nuestro personal para asegurarnos de prestar el mejor servicio de la Ciudad. </p>
-            <br>
-            <p class="caracterizamos">Nos caracterizamos por nuestra atención personalizada, trato V.I.P. puntualidad y precios justos.</p>
-        <h1>Misión</h1>
-        <p class="somos">Ser la empresa más confiable del medio, manteniendo el liderazgo en cada mercado que participemos, a través de la buena calidad de servicios</p>
-        <h1>Visión</h1>
-        <p class="somos">Que nuestros clientes y consumidores nos elijan siempre como la primera opción, “ser el líder”.</p>
-    </div>
-    <div class="img_taxi"> <img class="ola" src="imagenes/quienessomos.jpg" alt=""></div>
-                
-    </div>
-     </section>
-     <div class="servicioastro" id="servicioastro">
-        <h1>Nuestro Servicio</h1>
+
      <section class="contenedor_3">
       
         
@@ -215,9 +219,8 @@
         </div>
     </div>
      </section>
-    </div>
-     </main>
-     <section class="atencion_servicios">
+    </main>
+    <section class="atencion_servicios">
         <div>
             <h1>ATENCIÓN LAS 24 HORAS LOS 365 DIAS DEL AÑO</h1>
             <p>¡Siempre a tu servicio!</p>
@@ -243,7 +246,6 @@
      <div class="whatsapp">
         <a href="https://wa.me/51972224099?text=Me%20envia%20un%20taxi%20para:"><i class="fa-brands fa-whatsapp"></i></a>
      </div>
-    
 </body>
 <footer>
     <section class="footer_contenedor">
@@ -279,6 +281,5 @@
 
  <div class="copirai">© Copyright Taxi Astro. Todos los Derechos Reservados 2023</div>
 </footer>
-
 <script src="js/main.js"></script>
 </html>

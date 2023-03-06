@@ -1,9 +1,12 @@
 
 @media (max-width:960px) {
-
-    .logo{
-        display: none;
-    }
+.conduce{
+    width: 350px;
+}
+.conduce2{
+    width: 300px;
+}
+   
     footer div h2,p{
 font-size: 20px;
     }
@@ -12,40 +15,44 @@ font-size: 20px;
         height:100px;
 
     }
-nav{
-    display: flex;
-    background-color:rgba(27, 38, 60, 0.918);
-    position: fixed;
-    height: 100vh;
-    justify-content:left;
-  align-content:start;
-  width: 300px;
-   z-index: 999; 
-   border-bottom-right-radius: 30px;
-  transform: translateX(-150%);
-  transition: all 0.9   s;
+header nav{
+    justify-content: left;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
 }
-.banner-active{
-transform: translateX(0);
-transition: all 0.5s;
-}
-   
-    
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+font-size: 30px;
+margin: 20px 3px;   
+    }
+    .menu{
+        margin-left: -30px;
 
-   
-nav div ul{
-   margin-left:-40px ;
-}
- nav div ul li{
-    display: block;
-}
-nav div ul li a{
-    color:white
-}
+    }
+    .contenedor_menu{
+        position: fixed;
+        width: 300px;
+        top: 80px;
+        height: 100vh;
+        left: 1px;
+        background-color: chocolate;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-top-right-radius:50px ;
+        transform: translateX(-150%);
+    }
 
     
     .hamburger--collapse{
         visibility: visible;
+        background-color: #ff0000;
+        width: 68px;
+        height: 65px;
+        border-radius: 50%;
+        
     }
    
   header .banner-active{
