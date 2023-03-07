@@ -28,21 +28,24 @@ font-size: 30px;
 margin: 20px 3px;   
     }
     .menu{
+        margin-top: 20px;
         margin-left: -30px;
+  
 
     }
     .contenedor_menu{
         position: fixed;
-        width: 300px;
+        width: 240px;
         top: 80px;
         height: 100vh;
         left: 1px;
-        background-color: chocolate;
+        background-color: rgb(238, 35, 9);
         display: flex;
         justify-content: left;
-        align-items: center;
+        align-content:baseline;
         border-top-right-radius:50px ;
         transform: translateX(-150%);
+        transition: all 1s;
     }
 
     
