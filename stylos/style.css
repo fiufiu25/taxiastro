@@ -135,7 +135,7 @@ border-radius: 10px;
     border-radius: 20px;
     box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.589);
     padding: 10px;
-    background-color: #795f5fb1;
+    background-color:darkslategrey;
    
 }
 .contenedor_flex{
@@ -160,9 +160,10 @@ margin-left: -30px;
 .contenedor_flex div{
     padding: 40px 0;
     width: 400px;
-    border:2px solid red ;
+    box-shadow: 1px 4px 4px white;
     border-bottom-right-radius:30px ;
     padding: 14px;
+    background-color:rgb(19, 17, 17);
 }
 .contenedor_flex div h1,h2{
     text-align: center;
@@ -302,7 +303,7 @@ filter: drop-shadow(1px 1px 1px red);
     border-radius: 20px;
     box-shadow: 1px 4px 6px rgba(255, 255, 255, 0.589);
     padding: 10px;
-    background-color: #795f5fb1;
+    background-color:darkslategrey;
 }
 .contenedor_4_flex div p{
     color:rgb(208, 177, 177);
