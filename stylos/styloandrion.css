@@ -98,14 +98,27 @@ margin: 20px 3px;
     .footer_contenedo {
        gap:10px;
     }
+    footer{
+        text-align: center;
+    }
     footer div{
         width: 280px;
     }
     .numeros li{
         font-size: 22px;
     }
+    footer h2{
+        text-align: center;
+    }
+   
     .copirai{
 font-size: 17px;
     }
-
+    .footer_contenedor div img{
+        width: 180px;
+        height: 150px;
+        border-radius: 30px;
+        filter:drop-shadow(2px 4px 3px rgb(170, 139, 139));
+        z-index: 2;
+    }
 }

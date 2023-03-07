@@ -413,6 +413,7 @@ footer p{
 .contenedor_taxis{
     display: flex;
     text-transform: capitalize;
+    gap: 10px;
 }
 .copirai{
     background-color: #353739;
@@ -469,6 +470,7 @@ footer p{
     position: fixed;
     bottom: 80px;
     right: 10px;
+    z-index: 997;
 }
 .whatsapp i{
     color: white;
@@ -502,7 +504,7 @@ color:  rgb(39, 195, 39) ;
     bottom: 10px;
     right: 10px;
 display: none;
-
+z-index: 999;
     }
     .scrool:hover{
         transition: all 0.5s;
