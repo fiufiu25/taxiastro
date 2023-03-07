@@ -115,6 +115,7 @@ border-radius: 10px;
 }
 .vision p{
     color: gray;
+    text-align: center;
 }
 .img_taxi{
     width: 500px;
@@ -327,6 +328,7 @@ filter: drop-shadow(1px 1px 1px red);
    
     text-align: center;
     padding: 10px;
+    margin-top: -50px;
     
 }
 .atencion_servicios div{

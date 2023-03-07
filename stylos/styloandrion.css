@@ -81,3 +81,31 @@ margin: 20px 3px;
     font-size: 36px;
 }
 }
+@media (max-width:530px) {
+    .atencion_servicios{
+        padding: 10px;
+    }
+    .telefono{
+        width: 96%;
+     font-size: 20px;
+    }
+   
+    .telefono-2{
+        width: 80%;
+        font-size: 17px;
+        padding: 14px;
+    }
+    .footer_contenedo {
+       gap:10px;
+    }
+    footer div{
+        width: 280px;
+    }
+    .numeros li{
+        font-size: 22px;
+    }
+    .copirai{
+font-size: 17px;
+    }
+
+}
